@@ -13,7 +13,10 @@ header {
 table {
   margin: 40px;
   width: 100%;
-  align-items: left;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
 th {
